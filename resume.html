@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Williams Tamayo - Resume</title>
+    <style>
+      @page { size: Letter; margin: 0.6in; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        color: #111;
+        line-height: 1.35;
+        font-size: 11.5px;
+      }
+      h1 {
+        margin: 0 0 6px;
+        font-size: 22px;
+        letter-spacing: 0.2px;
+      }
+      h2 {
+        margin: 14px 0 6px;
+        font-size: 12.5px;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 4px;
+      }
+      .subtitle {
+        font-size: 12px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+      .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 16px;
+        font-size: 11px;
+        margin-bottom: 8px;
+      }
+      .contact a { color: #0b5bd3; text-decoration: none; }
+      .summary {
+        font-size: 11.5px;
+        color: #222;
+        margin: 0 0 6px;
+      }
+      ul { margin: 6px 0 0 16px; padding: 0; }
+      li { margin: 2px 0; }
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 10px;
+        margin-top: 6px;
+      }
+      .skills span {
+        background: #f2f4f7;
+        border: 1px solid #e4e7ec;
+        padding: 2px 6px;
+        border-radius: 10px;
+        font-size: 10.5px;
+      }
+      .project {
+        margin: 8px 0 0;
+      }
+      .project-title {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 600;
+      }
+      .project-title span { color: #444; font-weight: 500; }
+      .project-desc { margin: 2px 0 0; color: #222; }
+    </style>
+  </head>
+  <body>
+    <h1>Williams Tamayo</h1>
+    <div class="subtitle">Software Engineer</div>
+
+    <div class="contact">
+      <div>Email: <a href="mailto:willgamedevelopment@gmail.com">willgamedevelopment@gmail.com</a></div>
+      <div>GitHub: <a href="https://github.com/walberh96">github.com/walberh96</a></div>
+      <div>LinkedIn: <a href="https://www.linkedin.com/in/walberh96/">linkedin.com/in/walberh96</a></div>
+    </div>
+
+    <h2>Summary</h2>
+    <p class="summary">
+      Software engineer building products across web, mobile, and desktop platforms. Experienced with backend services, APIs,
+      and developer tooling. Comfortable shipping cross-platform experiences, including mobile and wearables, with strong
+      Linux-first workflows and an emphasis on automation and reproducibility.
+    </p>
+
+    <h2>What I Build</h2>
+    <ul>
+      <li>Full-stack web applications and backend APIs.</li>
+      <li>Mobile experiences with React Native and Android.</li>
+      <li>Game systems and interactive experiences.</li>
+      <li>CLI/TUI tools for automation and developer workflows.</li>
+      <li>Cross-platform integrations, including wearables.</li>
+    </ul>
+
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>NixOS</span><span>Linux</span><span>Unity</span><span>C#</span><span>Rust</span><span>.NET</span>
+      <span>ASP.NET Core</span><span>ASP.NET MVC</span><span>PostgreSQL</span><span>HTML</span><span>CSS</span>
+      <span>JavaScript</span><span>CLI/TUI</span><span>Bash</span><span>Python</span><span>React Native</span>
+      <span>Android</span><span>Java</span>
+    </div>
+
+    <h2>Projects</h2>
+    <div class="project">
+      <div class="project-title">WillwitcherOS <span>OS Configuration</span></div>
+      <div class="project-desc">
+        An opinionated NixOS installation inspired by Arch-like workflows, focused on reproducibility and reliability.
+      </div>
+      <div class="project-desc"><a href="https://github.com/walberh96/willwitcher-OS-Endgame">github.com/walberh96/willwitcher-OS-Endgame</a></div>
+    </div>
+    <div class="project">
+      <div class="project-title">Solstale <span>Game</span></div>
+      <div class="project-desc">A Unity game developed solo, managed end-to-end.</div>
+      <div class="project-desc"><a href="https://store.steampowered.com/app/2719860/Solstale/">store.steampowered.com/app/2719860/Solstale</a></div>
+    </div>
+    <div class="project">
+      <div class="project-title">Warframe Utils (.NET) <span>Web App</span></div>
+      <div class="project-desc">
+        A toolkit for Warframe players combining event info with Warframe Market prices.
+      </div>
+      <div class="project-desc"><a href="https://github.com/walberh96/Warframe-Utils-.NET">github.com/walberh96/Warframe-Utils-.NET</a></div>
+    </div>
+    <div class="project">
+      <div class="project-title">FitRPG <span>Web/Mobile/Wearable App</span></div>
+      <div class="project-desc">
+        A fitness-focused RPG experience turning workouts into quests, with a modern stack for web, mobile, and a Samsung
+        Watch 7 companion.
+      </div>
+      <div class="project-desc"><a href="https://github.com/walberh96/FitRPG">github.com/walberh96/FitRPG</a></div>
+    </div>
+    <div class="project">
+      <div class="project-title">Waycast <span>TUI Tool</span></div>
+      <div class="project-desc">
+        A cross-platform Rust TUI that turns scripts into shareable packages with manifests, validation, and dependency
+        installs for reliable runs.
+      </div>
+      <div class="project-desc"><a href="https://github.com/walberh96/Waycast">github.com/walberh96/Waycast</a></div>
+    </div>
+    <div class="project">
+      <div class="project-title">IV Plumbing Solutions <span>Website</span></div>
+      <div class="project-desc">Business website built end-to-end using HTML, CSS, and JavaScript.</div>
+      <div class="project-desc"><a href="https://ivplumbingsolutions.com">ivplumbingsolutions.com</a></div>
+    </div>
+
+    <h2>Education</h2>
+    <div class="project">
+      <div class="project-title">Software Engineer <span>CUJAE · Havana, Cuba · 09/2015 - 04/2018</span></div>
+      <div class="project-desc">Software Engineering</div>
+    </div>
+    <div class="project">
+      <div class="project-title">Associate in Science in Telematics <span>ITSO · Orellana, Ecuador · 04/2018 - 09/2021</span></div>
+      <div class="project-desc">Informatics and Telecommunications</div>
+    </div>
+  </body>
+</html>

@@ -6,7 +6,7 @@
     <meta name="description" content="Williams Tamayo — Software Engineer portfolio." />
     <title>Williams Tamayo — Portfolio</title>
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -53,9 +53,9 @@
             <p class="subtitle">Software Engineer</p>
 
             <p class="lead">
-              🐧 Love linux and open source.
+              🐧 Love Linux and open source.
               🎮 Love game development.
-              💻 Skilled in C#, Unity, .NET and game development.
+              🧠 Enjoy challenging problems and building new things.
               🚀 Always learning and exploring new technologies.
               🤝 Happy to collaborate on interesting projects.
             </p>
@@ -68,7 +68,7 @@
             <div class="hero-meta">
               <span class="pill">Linux & Open Source</span>
               <span class="pill">Game Dev</span>
-              <span class="pill">Web Apps</span>
+              <span class="pill">CLI & TUI Tools</span>
             </div>
           </div>
 
@@ -78,9 +78,10 @@
               <li>⚙️ WillwitcherOS (Opinionated NixOS install)</li>
               <li>🎮 Solstale (Unity, solo dev)</li>
               <li>🧰 Warframe Utils (.NET web app)</li>
+              <li><span class="nf-inline" aria-hidden="true"></span> FitRPG (ASP.NET Core, React Native)</li>
+              <li><span class="nf-inline" aria-hidden="true"></span> Waycast (Rust TUI script packages)</li>
               <li>🌐 IV Plumbing Solutions (HTML/CSS/JS site)</li>
             </ul>
-            <p class="card-footnote">Prototype portfolio — more projects coming soon.</p>
           </div>
         </div>
       </section>
@@ -89,48 +90,26 @@
       <section id="about" class="section">
         <div class="container">
           <h2>About</h2>
-          <p class="section-subtitle">A quick snapshot of what I’m into and what I build.</p>
-
           <div class="about-grid">
             <div class="card">
               <h3>About Me</h3>
               <ul class="card-list">
-                <li>🐧 Love linux and open source.</li>
-                <li>🎮 Love game development.</li>
-                <li>💻 Skilled in C#, Unity, .NET and game development.</li>
-                <li>🚀 Always learning and exploring new technologies.</li>
-                <li>🤝 Happy to collaborate on interesting projects.</li>
+                <li>Software engineer building products across web, mobile, and desktop platforms.</li>
+                <li>Experienced with backend services, APIs, and developer tooling.</li>
+                <li>Comfortable shipping cross-platform experiences, including mobile and wearables.</li>
+                <li>Strong Linux-first workflows with an emphasis on automation and reproducibility.</li>
+                <li>Driven by turning ideas into real, usable products and iterating fast.</li>
               </ul>
             </div>
 
             <div class="card">
               <h3>What I build</h3>
-              <p class="muted">
-                Opinionated Linux setups, games, and practical web tools—focused on clean workflows and useful features.
-              </p>
-            </div>
-
-            <div class="card">
-              <h3>Links</h3>
-              <ul class="contact-list">
-                <li>
-                  <span class="muted">GitHub:</span>
-                  <a class="link" href="https://github.com/walberh96" target="_blank" rel="noreferrer">
-                    github.com/walberh96
-                  </a>
-                </li>
-                <li>
-                  <span class="muted">LinkedIn:</span>
-                  <a class="link" href="https://www.linkedin.com/in/walberh96/" target="_blank" rel="noreferrer">
-                    linkedin.com/in/walberh96
-                  </a>
-                </li>
-                <li>
-                  <span class="muted">Email:</span>
-                  <a class="link" href="mailto:willgamedevelopment@gmail.com">
-                    willgamedevelopment@gmail.com
-                  </a>
-                </li>
+              <ul class="card-list">
+                <li>Full-stack web applications and backend APIs.</li>
+                <li>Mobile experiences with React Native and Android.</li>
+                <li>Game systems and interactive experiences.</li>
+                <li>CLI/TUI tools for automation and developer workflows.</li>
+                <li>Cross-platform integrations, including wearables.</li>
               </ul>
             </div>
           </div>
@@ -141,12 +120,8 @@
       <section id="skills" class="section">
         <div class="container">
           <h2>Skills</h2>
-          <p class="section-subtitle">
-            Based on the current projects shown here (you’ll expand this later as you add more projects).
-          </p>
 
           <div class="card">
-            <h3>Tech used</h3>
             <div class="pill-row">
               <span class="pill">NixOS</span>
               <span class="pill">Linux</span>
@@ -154,12 +129,21 @@
               <span class="pill">Unity</span>
               <span class="pill">C#</span>
 
+              <span class="pill">Rust</span>
               <span class="pill">.NET</span>
+              <span class="pill">ASP.NET Core</span>
               <span class="pill">ASP.NET MVC</span>
+              <span class="pill">PostgreSQL</span>
 
               <span class="pill">HTML</span>
               <span class="pill">CSS</span>
               <span class="pill">JavaScript</span>
+              <span class="pill">CLI/TUI</span>
+              <span class="pill">Bash</span>
+              <span class="pill">Python</span>
+              <span class="pill">React Native</span>
+              <span class="pill">Android</span>
+              <span class="pill">Java</span>
             </div>
           </div>
         </div>
@@ -169,14 +153,12 @@
       <section id="projects" class="section">
         <div class="container">
           <h2>Projects</h2>
-          <p class="section-subtitle">Prototype list — more coming soon.</p>
-
           <div class="projects-grid">
             <!-- WillwitcherOS -->
             <article class="card project">
               <div class="project-top">
                 <h3>WillwitcherOS</h3>
-                <span class="badge">Open Source</span>
+                <span class="badge">OS Configuration</span>
               </div>
 
               <p class="muted">
@@ -235,6 +217,7 @@
 
               <div class="pill-row">
                 <span class="pill">C#</span>
+              <span class="pill">Rust</span>
                 <span class="pill">.NET</span>
                 <span class="pill">ASP.NET MVC</span>
               </div>
@@ -245,7 +228,58 @@
                 </a>
               </div>
             </article>
+            <!-- FitRPG -->
+            <article class="card project">
+              <div class="project-top">
+                <h3>FitRPG</h3>
+                <span class="badge">Web/Mobile/Wearable App</span>
+              </div>
 
+              <p class="muted">
+                A fitness-focused RPG experience that turns workouts into quests, rewards, and progression. Remake in progress
+                with a modern stack for web, mobile, and a Samsung Watch 7 companion, backed by a starter ASP.NET Core API.
+              </p>
+              <div class="pill-row">
+                <span class="pill">ASP.NET Core</span>
+                <span class="pill">React Native</span>
+                <span class="pill">Android</span>
+                <span class="pill">Java</span>
+                <span class="pill">PostgreSQL</span>
+              </div>
+
+              <div class="project-links">
+                <a class="link" href="https://github.com/walberh96/FitRPG" target="_blank" rel="noreferrer">
+                  GitHub +
+                </a>
+              </div>
+            </article>
+            <!-- Waycast -->
+            <article class="card project">
+              <div class="project-top">
+                <h3>Waycast</h3>
+                <span class="badge">TUI Tool</span>
+              </div>
+
+              <p class="muted">
+                A cross-platform Rust TUI that turns scripts into shareable packages with manifests, validation, and dependency
+                installs for reliable runs.
+              </p>
+
+              <div class="pill-row">
+                <span class="pill">Rust</span>
+                <span class="pill">CLI/TUI</span>
+                <span class="pill">Bash</span>
+                <span class="pill">Python</span>
+                <span class="pill">Cross-platform</span>
+                <span class="pill">JSON</span>
+              </div>
+
+              <div class="project-links">
+                <a class="link" href="https://github.com/walberh96/Waycast" target="_blank" rel="noreferrer">
+                  GitHub +
+                </a>
+              </div>
+            </article>
             <!-- IV Plumbing Solutions website -->
             <article class="card project">
               <div class="project-top">
@@ -261,6 +295,7 @@
                 <span class="pill">HTML</span>
                 <span class="pill">CSS</span>
                 <span class="pill">JavaScript</span>
+              <span class="pill">CLI/TUI</span>
               </div>
 
               <div class="project-links">
@@ -307,16 +342,7 @@
                 <a class="btn btn-ghost" href="resume.pdf" download>Download Resume (PDF)</a>
               </div>
             </div>
-
-            <div class="card">
-              <h3>Next upgrades</h3>
-              <ul class="card-list">
-                <li>Add the rest of your projects</li>
-                <li>Expand skills as your project list grows</li>
-                <li>Optional: experience / timeline section</li>
-              </ul>
-            </div>
-          </div>
+</div>
 
           <footer class="footer">
             <span>© <span data-year></span> Williams Tamayo. Built for GitHub Pages.</span>
@@ -328,3 +354,20 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

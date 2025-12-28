@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Personal portfolio — projects, skills, and contact."
+    />
+    <title>Williams — Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span>Williams</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="site-nav"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <nav id="site-nav" class="nav" data-nav>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+
+          <!-- Optional: add your resume link later -->
+          <a class="nav-cta" href="#" aria-disabled="true" title="Add your resume link later">
+            Resume
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section id="top" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <h1>Will <span class="muted">(replace with full name if you want)</span></h1>
+            <p class="subtitle">Software Engineer <span class="muted">(edit title)</span></p>
+
+            <p class="lead">
+              <!-- Replace this paragraph with your real summary -->
+              I build software and polished user experiences. This page is a prototype portfolio
+              for GitHub Pages — more projects and skills coming soon.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn" href="#projects">View Projects</a>
+              <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+            </div>
+
+            <div class="hero-meta">
+              <!-- Replace these later (or delete them) -->
+              <span class="pill">Open to opportunities</span>
+              <span class="pill">Remote / On-site</span>
+              <span class="pill">USA</span>
+            </div>
+          </div>
+
+          <div class="hero-card" role="note" aria-label="Quick highlights">
+            <h2 class="card-title">Quick Highlights</h2>
+            <ul class="card-list">
+              <li>⚙️ OS + workflow tooling (WillwitcherOS)</li>
+              <li>🎮 Indie game release (Solstale)</li>
+              <li>🌐 Client website work (IV Plumbing Solutions)</li>
+            </ul>
+            <p class="card-footnote">
+              Tip: tell me your real bio + links and I’ll swap all placeholders.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p class="section-subtitle">
+            <!-- Replace this with your real "About me" -->
+            Write a short intro: what you specialize in, what you enjoy building, and what you’re looking for.
+          </p>
+
+          <div class="about-grid">
+            <div class="card">
+              <h3>What I do</h3>
+              <p class="muted">
+                Placeholder — add your focus areas (e.g., frontend, backend, cloud, systems, game dev, etc.).
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>What I care about</h3>
+              <p class="muted">
+                Placeholder — add 2–4 things (performance, clean UX, reliability, accessibility, open source, etc.).
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>Currently building</h3>
+              <p class="muted">
+                Prototype list: WillwitcherOS, Solstale, and IV Plumbing Solutions website. More coming soon.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+          <p class="section-subtitle">
+            You said you’ll share your skills later — for now this is a placeholder section.
+          </p>
+
+          <div class="card">
+            <h3>Technical Skills (coming soon)</h3>
+            <div class="pill-row">
+              <span class="pill pill-muted">Add skills later</span>
+              <span class="pill pill-muted">Languages</span>
+              <span class="pill pill-muted">Frameworks</span>
+              <span class="pill pill-muted">Tools</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <p class="section-subtitle">
+            Prototype list — you’ll add the rest later.
+          </p>
+
+          <div class="projects-grid">
+            <!-- WillwitcherOS -->
+            <article class="card project">
+              <div class="project-top">
+                <h3>WillwitcherOS Endgame</h3>
+                <span class="badge">Open Source</span>
+              </div>
+
+              <p class="muted">
+                A personalized desktop environment configuration built on NixOS and Hyprland,
+                including a flake-based setup and custom scripts.
+              </p>
+
+              <div class="pill-row">
+                <span class="pill">NixOS</span>
+                <span class="pill">Hyprland</span>
+                <span class="pill">Nix Flakes</span>
+                <span class="pill">Dotfiles</span>
+              </div>
+
+              <div class="project-links">
+                <a class="link" href="https://github.com/walberh96/willwitcher-OS-Endgame" target="_blank" rel="noreferrer">
+                  GitHub →
+                </a>
+              </div>
+            </article>
+
+            <!-- Solstale -->
+            <article class="card project">
+              <div class="project-top">
+                <h3>Solstale</h3>
+                <span class="badge">Game</span>
+              </div>
+
+              <p class="muted">
+                A whimsical 2D platformer with cartoon-style visuals, designed to be accessible and fun for all ages.
+              </p>
+
+              <div class="pill-row">
+                <span class="pill">2D Platformer</span>
+                <span class="pill">Indie</span>
+                <span class="pill">Steam</span>
+              </div>
+
+              <div class="project-links">
+                <a class="link" href="https://store.steampowered.com/app/2719860/Solstale/" target="_blank" rel="noreferrer">
+                  Steam →
+                </a>
+              </div>
+            </article>
+
+            <!-- IV Plumbing Solutions website -->
+            <article class="card project">
+              <div class="project-top">
+                <h3>IV Plumbing Solutions Website</h3>
+                <span class="badge">Web</span>
+              </div>
+
+              <p class="muted">
+                Business website for a plumbing service (Miami). (We can refine this description once you tell me what you built/used.)
+              </p>
+
+              <div class="pill-row">
+                <span class="pill">Website</span>
+                <span class="pill">Client Work</span>
+              </div>
+
+              <div class="project-links">
+                <a class="link" href="https://ivplumbingsolutions.com" target="_blank" rel="noreferrer">
+                  Live Site →
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p class="section-subtitle">
+            Add your real links here and I’ll wire them up cleanly.
+          </p>
+
+          <div class="contact-grid">
+            <div class="card">
+              <h3>Reach me</h3>
+              <ul class="contact-list">
+                <li>
+                  <span class="muted">Email:</span>
+                  <a class="link" href="#" aria-disabled="true" title="Send me your email to enable this">
+                    (add email)
+                  </a>
+                </li>
+                <li>
+                  <span class="muted">GitHub:</span>
+                  <a class="link" href="https://github.com/walberh96" target="_blank" rel="noreferrer">
+                    github.com/walberh96
+                  </a>
+                </li>
+                <li>
+                  <span class="muted">LinkedIn:</span>
+                  <a class="link" href="#" aria-disabled="true" title="Send me your LinkedIn to enable this">
+                    (add LinkedIn)
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>What you’ll add later</h3>
+              <ul class="card-list">
+                <li>More projects + screenshots</li>
+                <li>Skills (real list)</li>
+                <li>Resume link</li>
+                <li>Optional: experience section</li>
+              </ul>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <span>© <span data-year></span> Will. Built for GitHub Pages.</span>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

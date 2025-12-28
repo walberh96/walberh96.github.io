@@ -1,4 +1,4 @@
-@import url("https://www.nerdfonts.com/assets/css/webfont.css");
+﻿@import url("https://www.nerdfonts.com/assets/css/webfont.css");
 
 :root{
   --bg0:#050b18;
@@ -123,9 +123,15 @@ a.link:hover{ text-decoration:underline; }
 }
 .hero-inner{
   display:grid;
-  grid-template-columns: 1.2fr .8fr;
+  grid-template-columns: 1fr;
   gap:18px;
   align-items:stretch;
+}
+.hero-content{
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 .hero-content h1{
   font-size: clamp(34px, 5vw, 54px);
@@ -145,13 +151,21 @@ a.link:hover{ text-decoration:underline; }
   line-height: 1.6;
   max-width: 62ch;
 }
+.lead-secondary{
+  margin-top: 10px;
+  color: var(--muted);
+}
+.hero-content .lead{
+  margin-left: auto;
+  margin-right: auto;
+}
 .hero-actions{
   display:flex;
+  justify-content:center;
   gap:12px;
   flex-wrap:wrap;
   margin: 14px 0 16px;
 }
-
 .btn{
   display:inline-flex;
   align-items:center;
@@ -181,12 +195,15 @@ a.link:hover{ text-decoration:underline; }
 .section{
   padding: 34px 0;
 }
+.section .container{
+  text-align:center;
+}
 .section h2{
   margin:0 0 10px;
   font-size: 26px;
 }
 .section-subtitle{
-  margin:0 0 18px;
+  margin:0 auto 18px;
   color:var(--muted);
   line-height: 1.6;
   max-width: 85ch;
@@ -232,8 +249,8 @@ a.link:hover{ text-decoration:underline; }
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
+  justify-items:center;
 }
-
 .project-top{
   display:flex;
   align-items:center;
@@ -248,6 +265,10 @@ a.link:hover{ text-decoration:underline; }
 .project .muted{
   line-height: 1.6;
   margin: 0 0 12px;
+}
+.project{
+  display:flex;
+  flex-direction:column;
 }
 
 .badge{
@@ -266,6 +287,7 @@ a.link:hover{ text-decoration:underline; }
   flex-wrap:wrap;
   gap:8px;
   margin-top: 10px;
+  justify-content:center;
 }
 .pill{
   display:inline-flex;
@@ -289,12 +311,31 @@ a.link:hover{ text-decoration:underline; }
   margin-top: 12px;
   display:flex;
   gap: 12px;
+  justify-content:center;
+}
+
+#projects .container{
+  text-align:left;
+}
+#projects h2{
+  text-align:center;
+}
+#projects .projects-grid{
+  justify-items:stretch;
+}
+#projects .project-links{
+  justify-content:flex-start;
+  margin-top:auto;
+}
+#projects .pill-row{
+  justify-content:flex-start;
 }
 
 .contact-grid{
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 14px;
+  justify-items:center;
 }
 .contact-list{
   list-style:none;
@@ -304,7 +345,19 @@ a.link:hover{ text-decoration:underline; }
   flex-direction:column;
   gap:10px;
 }
-
+#contact .container{
+  text-align:center;
+}
+#contact .card{
+  width:100%;
+  max-width: 520px;
+}
+#contact .contact-list{
+  align-items:center;
+}
+#contact .contact-list li{
+  text-align:center;
+}
 .footer{
   margin-top: 18px;
   padding: 16px 0 4px;
@@ -339,3 +392,4 @@ a.link:hover{ text-decoration:underline; }
   .nav a{ padding: 12px 12px; }
   .nav[data-open="true"]{ display:flex; }
 }
+

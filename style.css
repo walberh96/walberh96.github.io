@@ -166,6 +166,36 @@ a.link:hover{ text-decoration:underline; }
   flex-wrap:wrap;
   margin: 14px 0 16px;
 }
+.hero-actions-compact{
+  margin: 10px 0 0;
+}
+.hero-actions-compact .btn{
+  padding: 10px 12px;
+  font-size: 13px;
+}
+.hero-code{
+  margin-top: 12px;
+  text-align:center;
+  max-width: 520px;
+}
+.hero-code-title{
+  margin: 0 0 6px;
+  font-size: 14px;
+  letter-spacing: .3px;
+}
+.profiles-cta{
+  text-align:center;
+  padding: 22px;
+}
+.profiles-cta .hero-actions{
+  margin: 0;
+}
+.profiles-cta .btn{
+  min-width: 140px;
+}
+.contact-actions{
+  margin-top: 14px;
+}
 .btn{
   display:inline-flex;
   align-items:center;
@@ -338,6 +368,17 @@ a.link:hover{ text-decoration:underline; }
   border: 1px solid rgba(255,255,255,.18);
   background: rgba(255,255,255,.05);
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.04);
+}
+.tech-icon-img{
+  width: 26px;
+  height: 26px;
+  display: block;
+  filter: brightness(0) invert(1);
+}
+.tech-icon-text{
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .4px;
 }
 .tech-primary{
   border-color: rgba(77,163,255,.55);

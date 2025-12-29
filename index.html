@@ -60,8 +60,8 @@
 
             <div class="hero-actions">
               <a class="btn" href="#projects">View Projects</a>
-              <a class="btn btn-ghost" href="resume.pdf" download>Download Resume (PDF)</a>
             </div>
+
           </div>
         </div>
       </section>
@@ -73,59 +73,111 @@
           <p class="section-subtitle">Core technologies I reach for most when shipping products.</p>
           <div class="tech-grid">
             <article class="card tech-card tech-primary">
-              <div class="tech-icon">C#</div>
+              <div class="tech-icon">
+                <span class="tech-icon-text">C#</span>
+              </div>
               <div>
                 <h3>C#</h3>
                 <p class="muted">Gameplay systems, backend services, tooling.</p>
               </div>
             </article>
             <article class="card tech-card tech-primary">
-              <div class="tech-icon">ASP</div>
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/aspnetcore.svg" alt="ASP.NET Core" />
+              </div>
               <div>
                 <h3>ASP.NET Core</h3>
                 <p class="muted">APIs and web backends for production apps.</p>
               </div>
             </article>
             <article class="card tech-card tech-primary">
-              <div class="tech-icon">NET</div>
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/dotnet.svg" alt=".NET" />
+              </div>
               <div>
                 <h3>.NET</h3>
                 <p class="muted">Services, tooling, and full stack projects.</p>
               </div>
             </article>
             <article class="card tech-card tech-primary">
-              <div class="tech-icon">U</div>
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/unity.svg" alt="Unity" />
+              </div>
               <div>
                 <h3>Unity</h3>
                 <p class="muted">Game development, UI, and gameplay loops.</p>
               </div>
             </article>
             <article class="card tech-card">
-              <div class="tech-icon">JS</div>
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/javascript.svg" alt="JavaScript" />
+              </div>
               <div>
                 <h3>JavaScript</h3>
                 <p class="muted">Interactive UI and frontend behavior.</p>
               </div>
             </article>
             <article class="card tech-card">
-              <div class="tech-icon">JV</div>
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/java.svg" alt="Java" />
+              </div>
               <div>
                 <h3>Java</h3>
                 <p class="muted">Android apps and backend services.</p>
               </div>
             </article>
             <article class="card tech-card">
-              <div class="tech-icon">PG</div>
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/postgresql.svg" alt="PostgreSQL" />
+              </div>
               <div>
                 <h3>PostgreSQL</h3>
                 <p class="muted">Relational data modeling and queries.</p>
               </div>
             </article>
             <article class="card tech-card">
-              <div class="tech-icon">RS</div>
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/rust.svg" alt="Rust" />
+              </div>
               <div>
                 <h3>Rust</h3>
                 <p class="muted">CLI tools and performance-focused systems.</p>
+              </div>
+            </article>
+            <article class="card tech-card">
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/graphql.svg" alt="GraphQL" />
+              </div>
+              <div>
+                <h3>GraphQL</h3>
+                <p class="muted">Flexible APIs for product-ready data.</p>
+              </div>
+            </article>
+            <article class="card tech-card">
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/react.svg" alt="React" />
+              </div>
+              <div>
+                <h3>React</h3>
+                <p class="muted">Component-driven web experiences.</p>
+              </div>
+            </article>
+            <article class="card tech-card">
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/reactnative.svg" alt="React Native" />
+              </div>
+              <div>
+                <h3>React Native</h3>
+                <p class="muted">Shared UI for mobile and wearable apps.</p>
+              </div>
+            </article>
+            <article class="card tech-card">
+              <div class="tech-icon">
+                <img class="tech-icon-img" src="icons/docker.svg" alt="Docker" />
+              </div>
+              <div>
+                <h3>Docker</h3>
+                <p class="muted">Containerized builds and deployments.</p>
               </div>
             </article>
           </div>
@@ -355,6 +407,23 @@
         </div>
       </section>
 
+      <!-- CODING PROFILES -->
+      <section id="profiles" class="section">
+        <div class="container">
+          <h2>Check My Code</h2>
+          <p class="section-subtitle">Explore my repositories and problem-solving practice.</p>
+
+          <div class="contact-grid">
+            <div class="card profiles-cta">
+              <div class="hero-actions hero-actions-compact">
+                <a class="btn" href="https://github.com/walberh96" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn" href="https://leetcode.com/u/willwitcher/" target="_blank" rel="noreferrer">LeetCode</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- CONTACT -->
       <section id="contact" class="section">
         <div class="container">
@@ -376,20 +445,19 @@
                     linkedin.com/in/walberh96
                   </a>
                 </li>
-                <li>
-                  <span class="muted">GitHub:</span>
-                  <a class="link" href="https://github.com/walberh96" target="_blank" rel="noreferrer">
-                    github.com/walberh96
-                  </a>
-                </li>
               </ul>
             </div>          </div>
+
+          <div class="hero-actions contact-actions">
+            <a class="btn btn-ghost" href="resume.pdf" download>Download Resume (PDF)</a>
+          </div>
 
           <footer class="footer">
             <span>&copy; <span data-year></span> Williams Tamayo. Built for GitHub Pages.</span>
           </footer>
         </div>
       </section>
+
     </main>
 
     <script src="script.js"></script>

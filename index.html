@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -32,8 +32,9 @@
           <span class="nav-toggle-bar" aria-hidden="true"></span>
         </button>
 
-        <nav id="site-nav" class="nav" data-nav>
+                <nav id="site-nav" class="nav" data-nav>
           <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
 
@@ -69,6 +70,7 @@
       <section id="skills" class="section">
         <div class="container">
           <h2>Skills</h2>
+          <p class="section-subtitle">Selected tools and technologies.</p>
 
           <div class="card">
             <div class="pill-row">
@@ -77,12 +79,16 @@
 
               <span class="pill">Unity</span>
               <span class="pill">C#</span>
+              <span class="pill">Steam</span>
 
               <span class="pill">Rust</span>
               <span class="pill">.NET</span>
               <span class="pill">ASP.NET Core</span>
               <span class="pill">ASP.NET MVC</span>
               <span class="pill">PostgreSQL</span>
+              <span class="pill">MySQL</span>
+              <span class="pill">PHP</span>
+              <span class="pill">Mirror</span>
 
               <span class="pill">HTML</span>
               <span class="pill">CSS</span>
@@ -90,6 +96,8 @@
               <span class="pill">CLI/TUI</span>
               <span class="pill">Bash</span>
               <span class="pill">Python</span>
+              <span class="pill">JSON</span>
+              <span class="pill">Cross-platform</span>
               <span class="pill">React Native</span>
               <span class="pill">Android</span>
               <span class="pill">Java</span>
@@ -97,35 +105,82 @@
           </div>
         </div>
       </section>
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section">
+        <div class="container">
+          <h2>Experience</h2>
+          <p class="section-subtitle">Selected roles and shipped products.</p>
 
+          <div class="projects-grid">
+            <article class="card project">
+              <div class="project-top">
+                <h3>Game Developer, 7xDevs</h3>
+                <span class="badge">Startup</span>
+              </div>
+
+              <p class="muted">Florida, USA | Mar 2022 - Jan 2023</p>
+              <ul class="card-list">
+                <li>Built multiplayer RPG systems across gameplay, UI, and networking.</li>
+                <li>Designed the MySQL + PHP backend and deployed it on a Linux server.</li>
+                <li>Delivered social, store, inventory, and character controller features.</li>
+              </ul>
+
+              <div class="pill-row">
+                <span class="pill">Unity</span>
+                <span class="pill">C#</span>
+                <span class="pill">MySQL</span>
+                <span class="pill">PHP</span>
+                <span class="pill">Linux</span>
+                <span class="pill">Mirror</span>
+              </div>
+            </article>
+
+            <article class="card project">
+              <div class="project-top">
+                <h3>Indie Game Developer, Solstale</h3>
+                <span class="badge">Indie</span>
+              </div>
+
+              <p class="muted">Solo project | Oct 2023 - Apr 2024 | Steam release</p>
+              <ul class="card-list">
+                <li>Owned the full development cycle, from concept to release.</li>
+                <li>Built gameplay systems, UI, and release pipeline for a solo title.</li>
+              </ul>
+
+              <div class="pill-row">
+                <span class="pill">Unity</span>
+                <span class="pill">C#</span>
+                <span class="pill">Steam</span>
+              </div>
+            </article>
+
+            <article class="card project">
+              <div class="project-top">
+                <h3>Freelance Web Developer, IV Plumbing Solutions</h3>
+                <span class="badge">Client</span>
+              </div>
+
+              <p class="muted">Freelance | 2025 - Present</p>
+              <ul class="card-list">
+                <li>Designed and built the marketing site using HTML, CSS, and JavaScript.</li>
+                <li>Maintain the live site with ongoing updates and improvements.</li>
+              </ul>
+
+              <div class="pill-row">
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+                <span class="pill">JavaScript</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
       <!-- PROJECTS -->
       <section id="projects" class="section">
         <div class="container">
           <h2>Projects</h2>
+          <p class="section-subtitle">A selection of projects I've worked on.</p>
           <div class="projects-grid">
-            <!-- WillwitcherOS -->
-            <article class="card project">
-              <div class="project-top">
-                <h3>WillwitcherOS</h3>
-                <span class="badge">OS Configuration</span>
-              </div>
-
-              <p class="muted">
-                An opinionated NixOS installation inspired by "Arch-like" workflows - keeping the feel of Arch while staying Nix-based and reproducible (unbreakable).
-              </p>
-
-              <div class="pill-row">
-                <span class="pill">NixOS</span>
-                <span class="pill">Linux</span>
-                <span class="pill">Reproducible Setup</span>
-              </div>
-
-              <div class="project-links">
-                <a class="link" href="https://github.com/walberh96/willwitcher-OS-Endgame" target="_blank" rel="noreferrer">
-                  GitHub -></a>
-              </div>
-            </article>
-
             <!-- Solstale -->
             <article class="card project">
               <div class="project-top">
@@ -163,7 +218,7 @@
 
               <div class="pill-row">
                 <span class="pill">C#</span>
-              <span class="pill">Rust</span>
+                <span class="pill">Rust</span>
                 <span class="pill">.NET</span>
                 <span class="pill">ASP.NET MVC</span>
               </div>
@@ -220,6 +275,28 @@
 
               <div class="project-links">
                 <a class="link" href="https://github.com/walberh96/Waycast" target="_blank" rel="noreferrer">
+                  GitHub -></a>
+              </div>
+            </article>
+            <!-- WillwitcherOS -->
+            <article class="card project">
+              <div class="project-top">
+                <h3>WillwitcherOS</h3>
+                <span class="badge">OS Configuration</span>
+              </div>
+
+              <p class="muted">
+                An opinionated NixOS installation inspired by "Arch-like" workflows - keeping the feel of Arch while staying Nix-based and reproducible (unbreakable).
+              </p>
+
+              <div class="pill-row">
+                <span class="pill">NixOS</span>
+                <span class="pill">Linux</span>
+                <span class="pill">Reproducible Setup</span>
+              </div>
+
+              <div class="project-links">
+                <a class="link" href="https://github.com/walberh96/willwitcher-OS-Endgame" target="_blank" rel="noreferrer">
                   GitHub -></a>
               </div>
             </article>
@@ -290,6 +367,9 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+
+
 
 
 

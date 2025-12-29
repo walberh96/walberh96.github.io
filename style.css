@@ -320,6 +320,9 @@ a.link:hover{ text-decoration:underline; }
 #projects h2{
   text-align:center;
 }
+#projects .section-subtitle{
+  text-align:center;
+}
 #projects .projects-grid{
   justify-items:stretch;
 }

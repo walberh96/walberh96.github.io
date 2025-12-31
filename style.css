@@ -417,6 +417,7 @@ a.link:hover{ text-decoration:underline; }
 #projects .project-links{
   justify-content:flex-start;
   margin-top:auto;
+  padding-top: 12px;
 }
 #projects .pill-row{
   justify-content:flex-start;

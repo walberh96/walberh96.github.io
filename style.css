@@ -436,6 +436,10 @@ a.link:hover{ text-decoration:underline; }
   justify-content:flex-start;
 }
 
+#experience .card-list{
+  text-align:left;
+}
+
 .contact-grid{
   display:grid;
   grid-template-columns: 1fr;

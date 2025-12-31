@@ -439,6 +439,9 @@ a.link:hover{ text-decoration:underline; }
 #experience .card-list{
   text-align:left;
 }
+#experience .project > .muted{
+  text-align:left;
+}
 
 .contact-grid{
   display:grid;

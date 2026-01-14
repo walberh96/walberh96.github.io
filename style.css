@@ -361,13 +361,19 @@ a.link:hover{ text-decoration:underline; }
   text-align:left;
   padding: 16px;
 }
+.tech-card > div{
+  flex: 1;
+  min-width: 0;
+}
 .tech-card h3{
   margin:0 0 6px;
   font-size: 16px;
+  word-wrap: break-word;
 }
 .tech-card .muted{
   margin:0;
   font-size: 13px;
+  word-wrap: break-word;
 }
 .tech-icon{
   width:46px;

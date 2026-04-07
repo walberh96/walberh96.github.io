@@ -6,4 +6,4 @@
 - [x] Copy https://www.linkedin.com/in/walberh96/ as the link for my linkedin
 - [x] Supabase/Firebase
 - [ ] Improve the IV Plumbing site to use modern web technologies
-- [ ] Improve the Warframe Market site to use modern web technologies
+- [x] Improve the Warframe Market site to use modern web technologies
